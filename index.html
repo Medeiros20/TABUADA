@@ -12,14 +12,15 @@
             TABUADA
         </h1>
     </header>
+    <div class="entrada">
     <section>
         <div id ="dados">
-           <P>Número: <input type="number" name = "num" id="txtn" > <input type="button" value = "Gerar tabuada" onclick = "tabuada()"></P>
+           <P>Número: <input type="number" name = "num" id="txtn" class="input"> <input class="tabuada_button"type="button" value = "Gerar tabuada" onclick = "tabuada()"></P>
         </div>
         <div>
-          <option value=""> Aqui está a tabuada do número que você digitou </option>
-            <select name="tabuada" id="seltab" size = "10"></select>
-          
+          <option value=""> Aqui está a tabuada do número que você digitou: </option>
+            <select name="tabuada" id="seltab" size = "10" class="resultado"></select>
+        </div>       
         </div>
     </section>
     <footer>

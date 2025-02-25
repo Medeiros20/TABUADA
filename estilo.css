@@ -14,8 +14,41 @@ section{
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
+
+.entrada{
+    justify-content: center;
+    text-align: center;
+    
+}
+
 footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+.input {
+    appearance: none;
+    border-radius: 8px;
+    border-radius: 8;
+}
+
+.resultado {
+    appearance: none;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+}
+
+.tabuada_button {
+    appearance: none;
+    border-radius: 8px;
+    background: transparent;
 }
